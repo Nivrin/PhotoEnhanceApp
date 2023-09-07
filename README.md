@@ -1,39 +1,49 @@
-FastAPI Image Enhancement Flutter App
-Overview
-The FastAPI Image Enhancement Flutter App is a mobile application that allows users to select a photo from their device's gallery. Once a photo is chosen, the app sends a POST request to a FastAPI-based image enhancement service. The service processes the image, enhancing its quality by resizing, adjusting contrast and color saturation, and sharpening. The enhanced photo is then returned as a response.
+# FastAPI Image Enhancement Flutter App
 
-Features
-Choose a photo from the device's gallery.
-Send the selected photo to a FastAPI image enhancement service.
-Receive and display the enhanced photo.
-User Flow
-Launch the App:
+## Overview
 
-Open the app on your mobile device.
+The FastAPI Image Enhancement Flutter App is a mobile application that empowers users to enhance their photos. By selecting an image from their device's gallery, users can initiate a POST request to a FastAPI-based image enhancement service. The service processes the chosen image by applying various enhancements, including resizing, contrast and color saturation adjustments, and sharpening. Subsequently, the improved photo is sent back as a response.
 
-Choose a Photo:
+## Features
 
-Tap a "Choose Photo" button to open the device's gallery.
-Select an image from the gallery that you want to enhance.
-Send Enhancement Request:
+- **Select Photos**: Users can pick photos from their device's gallery.
 
-After selecting a photo, tap an "Enhance" or "Process" button.
-The app sends a POST request to the FastAPI image enhancement service.
-Processing Indicator:
+- **Enhance and Process**: The selected photo is sent to a FastAPI image enhancement service, which performs enhancements on the image.
 
-While the image is being processed, a loading indicator is displayed.
-View Enhanced Photo:
+- **Display Enhanced Photos**: Users can view the improved photo directly within the app.
 
-Once processing is complete, the enhanced photo is displayed in the app.
-Option to Save or Share:
+## User Flow
 
-Users have the option to save or share the enhanced photo.
-Technologies Used
-Flutter: A popular open-source UI development framework for building natively compiled applications for mobile, web, and desktop.
-HTTP Package: Used for making POST requests to the FastAPI service.
-Image Picker Package: Enables selecting photos from the device's gallery.
-Setup Instructions
-Install the Flutter development environment.
-Clone the Flutter app repository.
-Run the app on your emulator or physical device.
-Choose a photo and send it for enhancement.
+1. **App Launch**:
+
+   - Open the app on your mobile device.
+
+2. **Select a Photo**:
+
+   - Tap the "Choose Photo" button to access your device's photo gallery.
+   - Pick an image from your gallery that you wish to enhance.
+
+3. **Initiate Enhancement**:
+
+   - After selecting a photo, tap the "Enhance" or "Process" button.
+   - The app sends a POST request to the FastAPI image enhancement service.
+
+4. **Processing Indicator**:
+
+   - While the image is being processed, a loading indicator is displayed to keep the user informed.
+
+5. **View Enhanced Photo**:
+
+   - Once processing is complete, the improved photo is displayed within the app.
+
+6. **Save or Share**:
+
+   - Users can choose to save or share the enhanced photo as desired.
+
+## Technologies Used
+
+- **Flutter**: An open-source UI development framework that facilitates the creation of natively compiled applications for mobile, web, and desktop.
+
+- **HTTP Package**: Utilized for sending POST requests to interact with the FastAPI service.
+
+- **Image Picker Package**: Enables users to select photos from their device's gallery effortlessly.
